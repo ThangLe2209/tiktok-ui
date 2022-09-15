@@ -15,10 +15,10 @@ function AccountItem() {
             />
             <div className={cx('info')}>
                 <h4 className={cx('name')}>
-                    <span>Nguyen Van A</span>
+                    <span>genshin_impact_vn</span>
                     <FontAwesomeIcon className={cx('check')} icon={faCheckCircle} />
                 </h4>
-                <span className={cx('username')}>nguyenvana</span>
+                <span className={cx('username')}>GenshinImpact_VN</span>
             </div>
         </div>
     );
