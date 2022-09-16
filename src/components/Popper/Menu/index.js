@@ -39,7 +39,7 @@ function Menu({ children, items = [], onChange = defaultFn }) {
     };
     return (
         <Tippy
-            visible
+            // visible
             interactive
             delay={[0, 700]}
             offset={[12, 8]}
@@ -49,7 +49,7 @@ function Menu({ children, items = [], onChange = defaultFn }) {
                     <PopperWrapper className={cx('menu-popper')}>
                         {history.length > 1 && (
                             <Header
-                                title="Language"
+                                title={current.title}
                                 onBack={() => {
                                     setHistory((prev) => prev.slice(0, prev.length - 1));
                                 }}
