@@ -6,7 +6,7 @@ import 'tippy.js/dist/tippy.css'; // optional
 import classNames from 'classnames/bind';
 import styles from './Search.module.scss';
 
-import * as searchServices from '~/apiServices/searchServices';
+import * as searchServices from '~/services/searchService';
 import { SearchIcon } from '~/components/Icon';
 import AccountItem from '~/components/AccountItem';
 import { Wrapper as PopperWrapper } from '~/components/Popper';
