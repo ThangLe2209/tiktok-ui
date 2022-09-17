@@ -137,7 +137,7 @@ function Header() {
                         {currentUser ? (
                             <Image
                                 className={cx('user-avatar')}
-                                src="https://p16-sign-sg.tiktokcdn.com/aweme/100x100/tos-alisg-avt-0068/cc061264a76734820cc739f1a9da4a87.jpeg?x-expires=1663358400&x-signature=2gITsziifBfFHUkAOqHTgk0%2Bexo%3D"
+                                src="https://cdn2.steamgriddb.com/file/sgdb-cdn/icon_thumb/b035d6563a2adac9f822940c145263ce.png"
                                 alt="Genshin"
                                 fallback="https://yt3.ggpht.com/wgneNTiW753q5G6XMnjyNLAzReR4TVFJryTKTpIqJefrKMyhABPwfnyNWIoT5NNGstFlva1tgw=s176-c-k-c0x00ffffff-no-rj"
                             />
